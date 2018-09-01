@@ -6,10 +6,10 @@ class Book
     @title = title
   end
 
-  @GENRES = []
+  GENRES = []
   
   def genre=(genre)
-    @GENRES << genre
+    GENRES << genre
   end
   
   def turn_page
